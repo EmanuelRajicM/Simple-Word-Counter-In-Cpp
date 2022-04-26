@@ -13,7 +13,6 @@ int wrdCount(string wrd) {
 
 	// We will use this to store our word data
 	string word;
-
 	// We made a integrer variable and set its value to zero(0)
 	int counter = 0;
 
@@ -26,15 +25,13 @@ int wrdCount(string wrd) {
 	while (s >> word)
 		counter++;
 		return counter;
-	
 
 }
 
 int main() {
 
-	string s = "Iam the best programmer at my school "
-		"This is not true";
-
+	string s = "My name is Emanuel"
+		"I hate School";
 
 	cout << "Number of the words are: " << wrdCount(s);
 
