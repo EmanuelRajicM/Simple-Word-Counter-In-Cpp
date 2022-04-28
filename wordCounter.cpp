@@ -17,7 +17,7 @@ int wrdCount(string wrd) {
 	int counter = 0;
 
 	/* we use while loop to loop trough content stored in[word] string.
-    * While it's looping trough string, counter will add 1 number.
+    	* While it's looping trough string, counter will add 1 number.
 	* When loop is over, and there is no more data to loop trough,
 	* counter will then have value equal to words in string [word]
 	* we return counter value
